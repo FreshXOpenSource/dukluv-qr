@@ -3,7 +3,6 @@
 var QR = require('./qr-base.js').QR;
 var png = require('./png.js');
 var vector = require('./vector.js');
-var Stream = require('./stream.js');
 var fs = require('./fs.js');
 
 var BITMAP_OPTIONS = {
