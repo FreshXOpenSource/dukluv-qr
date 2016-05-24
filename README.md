@@ -11,8 +11,8 @@ Overview
   * png not yet supported
 
 Example:
-```javascript
-var qr = require('qr-image');
+```dukluv
+var qr = require('./qr/qr.js');
 
 var qr_svg = qr.image('I love QR!', { type: 'svg' });
 print(qr_svg);
